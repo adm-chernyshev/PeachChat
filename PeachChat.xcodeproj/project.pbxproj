@@ -72,7 +72,7 @@
 		D0E5AAEB25F51A79006A339A /* PeachChat */ = {
 			isa = PBXGroup;
 			children = (
-				D0E5AB3725F93617006A339A /* Extensions */,
+				D0E5AB4825F946B2006A339A /* Extensions */,
 				D0E5AAEC25F51A79006A339A /* AppDelegate.swift */,
 				D0E5AAEE25F51A79006A339A /* SceneDelegate.swift */,
 				D0E5AAF025F51A79006A339A /* ViewController.swift */,
@@ -84,7 +84,7 @@
 			path = PeachChat;
 			sourceTree = "<group>";
 		};
-		D0E5AB0325F52348006A339A /* UIKit */ = {
+		D0E5AB4725F94690006A339A /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
 				D0E5AB0425F52356006A339A /* UIButton + Extension.swift */,
@@ -94,17 +94,17 @@
 				D0E5AB1125F52975006A339A /* UIImageView + Extension.swift */,
 				D0E5AB3C25F93C8E006A339A /* StackView + Extension.swift */,
 			);
-			name = UIKit;
+			path = UIKit;
 			sourceTree = "<group>";
 		};
-		D0E5AB3725F93617006A339A /* Extensions */ = {
+		D0E5AB4825F946B2006A339A /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				D0E5AB3925F937C6006A339A /* ButtonFormView.swift */,
 				D0E5AB4325F93FE9006A339A /* OneLineTextField.swift */,
-				D0E5AB0325F52348006A339A /* UIKit */,
+				D0E5AB4725F94690006A339A /* UIKit */,
 			);
-			name = Extensions;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
