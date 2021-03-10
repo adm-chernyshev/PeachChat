@@ -18,9 +18,9 @@ class SignUpViewController: UIViewController {
     let signUpButton = UIButton(title: "Sign Up", titleColor: .white, backgroundColor: .mainBlack(), cornerRadius: 4)
     let loginButton = UIButton()
     
-    let emailTextField = OneLineTextField()
-    let passwordTextField = OneLineTextField()
-    let confirmPasswordTextField = OneLineTextField()
+    let emailTextField = OneLineTextField(font: .avenir20())
+    let passwordTextField = OneLineTextField(font: .avenir20())
+    let confirmPasswordTextField = OneLineTextField(font: .avenir20())
     
     override func viewDidLoad() {
         super.viewDidLoad()
