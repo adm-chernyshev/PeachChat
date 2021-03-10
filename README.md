@@ -1,2 +1,2 @@
-# PeachChat
-Peach messenger
+# PeachChat 🍑 
+Peach messenger for iOS
